@@ -1,53 +1,85 @@
-python-100-days
-🚀 100 Days of Python: My Learning & Portfolio Journey
-Welcome to my 100 Days of Python project!
-This repository documents my daily progress as I learn Python from the ground up, building practical projects and developing job-ready skills. My goal is to become a confident, independent Python developer and create a portfolio that demonstrates my abilities to future employers, collaborators, and the open-source community.
+Python 100 Days Challenge
+Welcome to my journey through the Python 100 Days challenge! This repository documents my daily progress as I learn Python from the ground up, practice algorithms, and build a professional coding portfolio using best practices in Python, Unix, and GitHub.
 
-📅 What is This Project?
-A 100-day challenge: Every day, I learn new Python concepts and apply them by building mini-projects or solving coding exercises.
+📁 Project Structure
+text
+python-100-days/
+│
+├── day1/                # Day 1 exercises and mini-projects
+├── day2/                # Day 2 exercises and mini-projects
+├── .gitignore           # Excludes venv and other files from version control
+├── requirements.txt     # Python dependencies for this project
+└── README.md            # This file
+🚦 Progress Overview
+Day	Topics & Projects	Folder/File(s)
+Day 1	Python setup, variables, input/output, basic scripts	day1/
+- Python basics (day1_basics.py)	
+- Greeter mini-project (day1_greeter.py)	
+Day 2	Control flow, functions, error handling, mini-project	day2/
+- Age checker (day2_age_checker.py)	
+- Sum of numbers (day2_sum_of_numbers.py)	
+- Multiplication function (day2_multiply.py)	
+- Number Guessing Game (day2_guessing_game.py)	
+📝 How to Run the Code
+Clone the repository:
 
-Project-based learning: I focus on hands-on coding, not just theory.
+bash
+git clone https://github.com/yourusername/python-100-days.git
+cd python-100-days
+Create and activate a virtual environment:
 
-Portfolio building: All my code, projects, and progress are tracked publicly here on GitHub.
+bash
+python3 -m venv venv
+source venv/bin/activate
+Install dependencies:
 
-Professional workflow: I use Git for version control and follow best practices in code organization and documentation.
+bash
+pip install -r requirements.txt
+Navigate to a day's folder and run a script:
 
-🏆 Goals
-Master Python fundamentals and advanced concepts
+bash
+cd day2
+python3 day2_guessing_game.py
+📦 Managing Your Python Environment
+The venv/ or .venv/ folder is not tracked by Git (see .gitignore).
 
-Build a diverse portfolio of real-world projects (automation, web, data, games, and more)
+All dependencies are listed in requirements.txt.
 
-Practice clean, professional coding habits
+To update dependencies after installing new packages, run:
 
-Learn to use essential tools (IDEs, virtual environments, linters, testing, etc.)
+bash
+pip freeze > requirements.txt
+🗂️ Folder Details
+day1/
+day1_basics.py: Practice with variables, input/output, and basic Python syntax.
 
-Prepare for junior developer roles, internships, or freelance work
+day1_greeter.py: A simple greeter mini-project.
 
-📚 What You’ll Find Here
-Daily folders: Each day has its own folder with code, notes, and mini-projects
+day2/
+day2_age_checker.py: Checks if a user is a minor, just turned 18, or an adult, with input validation.
 
-Milestone projects: Larger, more complex apps at key points in the journey
+day2_sum_of_numbers.py: Sums numbers from 1 to 10 using a loop.
 
-README updates: Regular summaries of what I’ve learned and built
+day2_multiply.py: Multiplies two numbers with error handling for invalid input.
 
-Commit history: Transparent record of my growth and progress
+day2_guessing_game.py: Mini-project—interactive number guessing game with input validation and attempt counter.
 
-💡 Why 100 Days?
-Consistency and practice are the keys to mastering programming.
-By coding every day, I’m building real skills, not just reading about them.
+💡 What I’m Learning
+Python syntax, functions, and control flow
 
-🌱 Progress
-Day 1: Python setup, basic syntax, variables, input/output, Git & GitHub workflow
+Error handling and user input validation
 
-(Update this section as you complete more days!)
+Writing reusable, well-structured code
 
-🤝 Connect
-GitHub: emprex
+Using Git and GitHub for version control
 
-(Add more links or contact info if you wish)
+Organizing code into logical folders by day/project
 
-🙏 Acknowledgments
-Thanks to the open-source community and all the amazing Python educators whose resources inspire this journey.
+Documenting progress and building a public coding portfolio
 
-Follow along, check out the code, and feel free to reach out with feedback or collaboration ideas!
+🌟 How to Contribute or Follow
+Explore the code in each day's folder.
 
+Suggest improvements or new challenges via issues or pull requests.
+
+Follow my progress and see how my skills grow each day!
